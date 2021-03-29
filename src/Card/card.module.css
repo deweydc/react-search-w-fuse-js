@@ -1,0 +1,64 @@
+.CardWrapper {
+    flex: 0 1 300px;
+    margin: 12px;
+    overflow: hidden;
+    padding: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05),
+      0 0px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    flex-wrap: wrap;
+    min-width: 300px;
+  }
+  .Header {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .ColImg {
+    width: 30%;
+    float: left;
+  }
+  .ColDetail {
+    width: 70%;
+    float: left;
+  }
+  .Img {
+    height: 100px;
+  }
+  .BookTitle {
+    font-size: 20px;
+  }
+  .Description {
+    color: #757575;
+    font-size: 14px;
+    margin-bottom:10px;
+  }
+  .Link {
+    font-size: 14px;
+  }
+
+
+  .Search {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+  }
+  .SearchSpan {
+    width: 15%;
+    border: 1px solid #1C76D2;
+    background: #1C76D2;
+    padding-top: 4px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+  }
+  .SearchInput {
+    width: 85%;
+    border: 3px solid #1C76D2;
+    border-left: none;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+  }
